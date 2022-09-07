@@ -27,6 +27,7 @@ Controls:
 STARPOWER is an arcade-style game where the goal is to score as many POINTS as possible. There are two ways to score POINTS:
 * Collecting a STAR: 10 POINTS
 * Crashing a UFO: 100 POINTS
+
 You collect STARS by flying over them, and you crash UFOS by running into them at high SPEED.
 
 Your SPEED does not give you any points, but is a very important part of the game, as when your speed drops to 0 it's GAME OVER! There are three ways to change your SPEED:

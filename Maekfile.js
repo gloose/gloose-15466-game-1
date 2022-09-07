@@ -119,8 +119,7 @@ const pipeline_objs = [
 	maek.CPP('Load.cpp'),
 	maek.CPP('data_path.cpp'),
 	maek.CPP('gl_compile_program.cpp'),
-	maek.CPP('GL.cpp'),
-	maek.CPP('read_write_chunk.hpp')
+	maek.CPP('GL.cpp')
 ];
 
 //the '[exeFile =] LINK(objFiles, exeFileBase, [, options])' links an array of objects into an executable:

@@ -24,6 +24,8 @@ Controls:
 * ARROW KEYS to move
 * R to restart after the game is over
 
+Instructions:
+
 STARPOWER is an arcade-style game where the goal is to score as many POINTS as possible. There are two ways to score POINTS:
 * Collecting a STAR: 10 POINTS
 * Crashing a UFO: 100 POINTS

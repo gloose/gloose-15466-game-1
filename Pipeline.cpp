@@ -198,7 +198,6 @@ int main(int argc, char** argv) {
 				nodes.back().left = is_filled(x - 1, y);
 				nodes.back().right = is_filled(x + 1, y);
 				nodes.back().star = nodes.back().up || nodes.back().down || nodes.back().left || nodes.back().right;
-				PlayMode::MapNode node = nodes.back();
 			}
 		}
 

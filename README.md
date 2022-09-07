@@ -35,7 +35,7 @@ Your SPEED does not give you any points, but it is a very important part of the 
 * Crashing a UFO: LOSE a large amount of SPEED
 * "Bonking": lose HALF your SPEED
 
-At high speeds, it is easier to collect stars and evade UFOs, but your ship NEVER STOPS MOVING, so you'll need quick reflexes to avoid BONKING! This occurs when your ship runs into a wall without holding a directional input to change directions in a right-angle turn from your current movement direction. Aside from cutting your speed in half, BONKING will cause you to bounce off the wall back the way you came; be careful not to get disoriented, lest you risk BONKING again!
+At high speeds, it is easier to collect stars and evade UFOs, but your ship NEVER STOPS MOVING, so you'll need quick reflexes to avoid BONKING! This occurs when your ship runs into a wall without holding a directional input to make a right-angle turn from your current movement direction (if this game had sound, imagine a satisfying "BONK" effect playing over the collision). Aside from cutting your speed in half, BONKING will cause you to bounce off the wall back the way you came; be careful not to get disoriented, lest you risk BONKING again!
 
 Tips:
 * STARPOWER is a fast-paced game, and if you only press the arrow keys the moment you come to a turn, you risk missing it entirely! Try holding the arrow keys in the direction you want to go BEFORE you come to a turn to make sure you don't mess up the timing.

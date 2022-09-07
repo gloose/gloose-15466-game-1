@@ -27,29 +27,29 @@ PPU466::Sprite* load_sprite(std::string name) {
 }
 
 // Load all sprite assets
-Load<PPU466::Sprite> blank_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("blank"); });
-Load<PPU466::Sprite> ship_up_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("ship_up"); });
-Load<PPU466::Sprite> ship_down_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("ship_down"); });
-Load<PPU466::Sprite> ship_left_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("ship_left"); });
-Load<PPU466::Sprite> ship_right_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("ship_right"); });
-Load<PPU466::Sprite> wall_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("wall"); });
-Load<PPU466::Sprite> star_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("star"); });
-Load<PPU466::Sprite> ufo_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("ufo"); });
-Load<PPU466::Sprite> ufo_dead_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("ufo_dead"); });
-Load<PPU466::Sprite> flame_up_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("flame_up"); });
-Load<PPU466::Sprite> flame_down_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("flame_down"); });
-Load<PPU466::Sprite> flame_left_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("flame_left"); });
-Load<PPU466::Sprite> flame_right_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("flame_right"); });
-Load<PPU466::Sprite> zero_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("0"); });
-Load<PPU466::Sprite> one_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("1"); });
-Load<PPU466::Sprite> two_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("2"); });
-Load<PPU466::Sprite> three_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("3"); });
-Load<PPU466::Sprite> four_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("4"); });
-Load<PPU466::Sprite> five_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("5"); });
-Load<PPU466::Sprite> six_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("6"); });
-Load<PPU466::Sprite> seven_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("7"); });
-Load<PPU466::Sprite> eight_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("8"); });
-Load<PPU466::Sprite> nine_sprite(LoadTagDefault, [&]() -> PPU466::Sprite* { return load_sprite("9"); });
+Load<PPU466::Sprite> blank_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("blank"); });
+Load<PPU466::Sprite> ship_up_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("ship_up"); });
+Load<PPU466::Sprite> ship_down_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("ship_down"); });
+Load<PPU466::Sprite> ship_left_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("ship_left"); });
+Load<PPU466::Sprite> ship_right_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("ship_right"); });
+Load<PPU466::Sprite> wall_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("wall"); });
+Load<PPU466::Sprite> star_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("star"); });
+Load<PPU466::Sprite> ufo_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("ufo"); });
+Load<PPU466::Sprite> ufo_dead_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("ufo_dead"); });
+Load<PPU466::Sprite> flame_up_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("flame_up"); });
+Load<PPU466::Sprite> flame_down_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("flame_down"); });
+Load<PPU466::Sprite> flame_left_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("flame_left"); });
+Load<PPU466::Sprite> flame_right_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("flame_right"); });
+Load<PPU466::Sprite> zero_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("0"); });
+Load<PPU466::Sprite> one_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("1"); });
+Load<PPU466::Sprite> two_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("2"); });
+Load<PPU466::Sprite> three_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("3"); });
+Load<PPU466::Sprite> four_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("4"); });
+Load<PPU466::Sprite> five_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("5"); });
+Load<PPU466::Sprite> six_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("6"); });
+Load<PPU466::Sprite> seven_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("7"); });
+Load<PPU466::Sprite> eight_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("8"); });
+Load<PPU466::Sprite> nine_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("9"); });
 
 // Load palette table data from assets/palettes.pal
 Load<std::vector<PPU466::Palette>> load_palette_table(LoadTagDefault, [&]() -> std::vector<PPU466::Palette>* {

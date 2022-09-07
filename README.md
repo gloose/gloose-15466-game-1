@@ -32,7 +32,7 @@ You collect STARS by flying over them, and you crash UFOS by running into them a
 
 Your SPEED does not give you any points, but it is a very important part of the game, as when your speed drops to 0 it's GAME OVER! There are three ways to change your SPEED:
 * Collecting a STAR: gain a small amount of SPEED
-* Crashing a UFO: lose a large amount of SPEED
+* Crashing a UFO: LOSE a large amount of SPEED
 * "Bonking": lose HALF your SPEED
 
 At high speeds, it is easier to collect stars and evade UFOs, but your ship NEVER STOPS MOVING, so you'll need quick reflexes to avoid BONKING! This occurs when your ship runs into a wall without holding a directional input to change directions in a right-angle turn from your current movement direction. Aside from cutting your speed in half, BONKING will cause you to bounce off the wall back the way you came; be careful not to get disoriented, lest you risk BONKING again!

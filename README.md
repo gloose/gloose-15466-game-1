@@ -18,13 +18,13 @@ The map pipeline is similar in that it starts with a png file that I drew in Ase
 
 ![Screen Shot](map_pipeline_screenshot.png)
 
-How To Play:
+## How To Play:
 
 Controls:
 * ARROW KEYS to move
 * R to restart after the game is over
 
-Instructions:
+## Instructions:
 
 STARPOWER is an arcade-style game where the goal is to score as many POINTS as possible. There are two ways to score POINTS:
 * Collecting a STAR: 10 POINTS
@@ -39,7 +39,7 @@ Your SPEED does not give you any points, but it is a very important part of the 
 
 At high speeds, it is easier to collect stars and evade UFOs, but your ship NEVER STOPS MOVING, so you'll need quick reflexes to avoid BONKING! This occurs when your ship runs into a wall without holding a directional input to make a right-angle turn from your current movement direction (if this game had sound, imagine a satisfying "BONK" effect playing over the collision). Aside from cutting your speed in half, BONKING will cause you to bounce off the wall back the way you came; be careful not to get disoriented, lest you risk BONKING again!
 
-Tips:
+## Tips:
 * STARPOWER is a fast-paced game, and if you only press the arrow keys the moment you come to a turn, you risk missing it entirely! Try holding the arrow keys in the direction you want to go BEFORE you come to a turn to make sure you don't mess up the timing.
 * You can only turn at right angles; BONKING is the only way to instantly reverse your direction 180 degrees. On rare occasions, if you're really regretting a turn, BONKING intentionally may be your best move.
 * Much like Pac-Man, you can loop around the screen by exiting on the left or right side.

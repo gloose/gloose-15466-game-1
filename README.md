@@ -45,6 +45,7 @@ Tips:
 * Remember, this isn't Pac-Man, and avoiding your enemies isn't always the best strategy! When your SPEED is high, it's better to hit an enemy and collect your 100 POINTS than to accidentally BONK and lose half your SPEED for nothing!
 * Your enemies are not very smart; sometimes they try to chase after you, and sometimes they choose their moves randomly. When chasing, they try to move directly towards you, ignoring the screen loop or any sort of path-finding. As a result, they often spend a lot of time on one half of the map until they accidentally wander their way out. Use this to your advantage!
 * The R key is typically disabled outside of a GAME OVER to avoid accidental restarts, but if you're dead in the water at very low SPEED, restarting is enabled to get you back in the game right away.
+* Looking for a challenge? Try to beat my personal high score of 6,320.
 
 This game was built with [NEST](NEST.md).
 

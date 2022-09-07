@@ -39,10 +39,11 @@ At high speeds, it is easier to collect stars and evade UFOs, but your ship NEVE
 
 Tips:
 * STARPOWER is a fast-paced game, and if you only press the arrow keys the moment you come to a turn, you risk missing it entirely! Try holding the arrow keys in the direction you want to go BEFORE you come to a turn to make sure you don't mess up the timing.
+* You can only turn at right angles; BONKING is the only way to instantly reverse your direction 180 degrees. On rare occasions, if you're really regretting a turn, BONKING intentionally may be your best move.
+* Much like Pac-Man, you can loop around the screen by exiting on the left or right side.
 * When you collect a STAR, it will randomly come back 10-50 seconds later.
 * Remember, this isn't Pac-Man, and avoiding your enemies isn't always the best strategy! When your SPEED is high, it's better to hit an enemy and collect your 100 POINTS than to accidentally BONK and lose half your SPEED for nothing!
-* Your enemies are not very smart; sometimes they try to chase after you, and sometimes they choose their moves randomly. When chasing, they try to move directly towards you, ignoring the screen loop or any sort of path finding. As a result, they often spend a lot of time on one half of the map until they accidentally wander their way out. Use this to your advantage!
-* You can only turn at right angles; BONKING is the only way to instantly reverse your direction 180 degrees. On rare occasions, if you're really regretting a turn, BONKING intentionally may be your best move.
+* Your enemies are not very smart; sometimes they try to chase after you, and sometimes they choose their moves randomly. When chasing, they try to move directly towards you, ignoring the screen loop or any sort of path-finding. As a result, they often spend a lot of time on one half of the map until they accidentally wander their way out. Use this to your advantage!
 * The R key is typically disabled outside of a GAME OVER to avoid accidental restarts, but if you're dead in the water at very low SPEED, restarting is enabled to get you back in the game right away.
 
 This game was built with [NEST](NEST.md).

@@ -10,10 +10,12 @@
 
 #include <fstream>
 #include "read_write_chunk.hpp"
-#include "../nest-libs/windows/glm/include/glm/glm.hpp"
+//#include "../nest-libs/windows/glm/include/glm/glm.hpp"
+#include <glm/glm.hpp>
 #include "Load.hpp"
 #include <string>
-#include "../nest-libs/windows/glm/include/glm/gtx/color_space.hpp"
+//#include "../nest-libs/windows/glm/include/glm/gtx/color_space.hpp"
+#include <glm/gtx/color_space.hpp>
 
 PPU466::Sprite* load_sprite(std::string name) {
 	// Load sprite data from file

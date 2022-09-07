@@ -52,7 +52,7 @@ Load<PPU466::Sprite> eight_sprite(LoadTagDefault, []() -> PPU466::Sprite* { retu
 Load<PPU466::Sprite> nine_sprite(LoadTagDefault, []() -> PPU466::Sprite* { return load_sprite("9"); });
 
 // Load palette table data from assets/palettes.pal
-Load<std::vector<PPU466::Palette>> load_palette_table(LoadTagDefault, [&]() -> std::vector<PPU466::Palette>* {
+Load<std::vector<PPU466::Palette>> load_palette_table(LoadTagDefault, []() -> std::vector<PPU466::Palette>* {
 	std::ifstream ifile("assets/palettes.pal", std::ios::binary);
 	std::vector<PPU466::Palette>* palettes = new std::vector<PPU466::Palette>();
 	read_chunk(ifile, "palt", palettes);
@@ -61,7 +61,7 @@ Load<std::vector<PPU466::Palette>> load_palette_table(LoadTagDefault, [&]() -> s
 });
 
 // Load tile table data from assets/tiles.til
-Load<std::vector<PPU466::Tile>> load_tile_table(LoadTagDefault, [&]() -> std::vector<PPU466::Tile>* {
+Load<std::vector<PPU466::Tile>> load_tile_table(LoadTagDefault, []() -> std::vector<PPU466::Tile>* {
 	std::ifstream ifile("assets/tiles.til", std::ios::binary);
 	std::vector<PPU466::Tile>* tiles = new std::vector<PPU466::Tile>();
 	read_chunk(ifile, "tile", tiles);
@@ -69,7 +69,7 @@ Load<std::vector<PPU466::Tile>> load_tile_table(LoadTagDefault, [&]() -> std::ve
 	return tiles;
 });
 
-Load<std::vector<PlayMode::MapNode>> load_map(LoadTagDefault, [&]() -> std::vector<PlayMode::MapNode>* {
+Load<std::vector<PlayMode::MapNode>> load_map(LoadTagDefault, []() -> std::vector<PlayMode::MapNode>* {
 	std::ifstream ifile("assets/map.map", std::ios::binary);
 	std::vector<PlayMode::MapNode>* nodes = new std::vector<PlayMode::MapNode>();
 	read_chunk(ifile, "map_", nodes);

@@ -1,8 +1,8 @@
-# (TODO: your game's title)
+# STARPOWER
 
-Author: (TODO: your name)
+Author: Greg Loose
 
-Design: (TODO: In two sentences or fewer, describe what is new and interesting about your game.)
+Design: STARPOWER is a Pac-Man inspired arcade game with a sci-fi theme and a fast-paced twist. Collect stars to build up speed, but be careful: you lose speed when you run into walls or enemy ships, and when you come to a full stop, it's game over!
 
 Screen Shot:
 

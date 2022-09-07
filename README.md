@@ -20,7 +20,26 @@ The map pipeline is similar in that it starts with a png file that I drew in Ase
 
 How To Play:
 
-(TODO: describe the controls and (if needed) goals/strategy.)
+Controls:
+* ARROW KEYS to move
+* R to restart after the game is over
+
+STARPOWER is an arcade-style game where the goal is to score as many POINTS as possible. There are two ways to score POINTS:
+* Collecting a STAR: 10 POINTS
+* Crashing a UFO: 100 POINTS
+You collect STARS by flying over them, and you crash UFOS by running into them at high SPEED.
+
+Your SPEED does not give you any points, but is a very important part of the game, as when your speed drops to 0 it's GAME OVER! There are three ways to change your SPEED:
+* Collecting a STAR: gain a small amount of SPEED
+* Crashing a UFO: lose a large amount of SPEED
+* "Bonking": lose HALF your SPEED
+
+At high speeds, it is easier to collect stars and evade UFOs, but your ship NEVER STOPS MOVING, so you'll need quick reflexes to avoid BONKING! This occurs when your ship runs into a wall without holding a directional input to change directions in a quarter-turn from your current movement direction. Aside from cutting your speed in half, BONKING will cause you to bounce off the wall back the way you came; be careful not to get disoriented, lest you risk BONKING again!
+
+Tips:
+* STARPOWER is a fast-paced game, and if you only press the arrow keys the moment you come to a turn, you risk missing it entirely! Try holding the arrow keys in the direction you want to go BEFORE you come to a turn to make sure you don't mess up the timing.
+* The R key is typically disabled outside of a GAME OVER to avoid accidental restarts, but if you're dead in the water at very low SPEED, restarting is enabled to get you back in the game right away.
+* Remember, this isn't Pac-Man, and avoiding your enemies isn't always the best strategy! When your SPEED is high, it's better to hit an enemy and collect your 100 POINTS than to accidentally BONK and lose half your SPEED for nothing!
 
 This game was built with [NEST](NEST.md).
 

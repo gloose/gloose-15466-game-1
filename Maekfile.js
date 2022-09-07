@@ -82,6 +82,7 @@ let copies = [
 ];
 if (maek.OS === 'windows') {
 	copies.push( maek.COPY(`${NEST_LIBS}/SDL2/dist/SDL2.dll`, `dist/SDL2.dll`) );
+	copies.push( maek.COPY(`${NEST_LIBS}/SDL2/dist/SDL2.dll`, `SDL2.dll`) );
 }
 
 //call rules on the maek object to specify tasks.
@@ -111,14 +112,27 @@ const game_objs = [
 	maek.CPP('GL.cpp')
 ];
 
+const pipeline_objs = [
+	maek.CPP('Pipeline.cpp'),
+	maek.CPP('PPU466.cpp'),
+	maek.CPP('load_save_png.cpp'),
+	maek.CPP('Load.cpp'),
+	maek.CPP('data_path.cpp'),
+	maek.CPP('gl_compile_program.cpp'),
+	maek.CPP('GL.cpp'),
+	maek.CPP('read_write_chunk.hpp')
+];
+
 //the '[exeFile =] LINK(objFiles, exeFileBase, [, options])' links an array of objects into an executable:
 // objFiles: array of objects to link
 // exeFileBase: name of executable file to produce
 //returns exeFile: exeFileBase + a platform-dependant suffix (e.g., '.exe' on windows)
 const game_exe = maek.LINK(game_objs, 'dist/game');
 
+const pipeline_exe = maek.LINK(pipeline_objs, 'pipeline');
+
 //set the default target to the game (and copy the readme files):
-maek.TARGETS = [game_exe, ...copies];
+maek.TARGETS = [game_exe, pipeline_exe, ...copies];
 
 //the '[targets =] RULE(targets, prerequisites[, recipe])' rule defines a Makefile-style task
 // targets: array of targets the task produces (can include both files and ':abstract targets')

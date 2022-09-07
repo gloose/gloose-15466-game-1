@@ -30,7 +30,7 @@ STARPOWER is an arcade-style game where the goal is to score as many POINTS as p
 
 You collect STARS by flying over them, and you crash UFOS by running into them at high SPEED, disabling them for 15 seconds.
 
-Your SPEED does not give you any points, but it is a very important part of the game, as when your speed drops to 0 it's GAME OVER! There are three ways to change your SPEED:
+Your SPEED does not give you any points, but it is a very important part of the game; as soon as it drops 0, it's GAME OVER! There are three ways to change your SPEED:
 * Collecting a STAR: gain a small amount of SPEED
 * Crashing a UFO: LOSE a large amount of SPEED
 * "Bonking": lose HALF your SPEED
